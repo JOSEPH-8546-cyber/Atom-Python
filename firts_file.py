@@ -93,4 +93,85 @@ else :
 u = 200
 print(isinstance(u, int))
 
-#
+##############################################
+
+#list in python
+
+o = [25, True, False, "Hola Joseph", 1.2, 3, 3]
+
+print(len(o))
+
+#print(type(o))
+
+print(o[0 : 2])
+
+p = list(("Apple", 25, True, 2.2, 'joseph', "Hola", 85, 2.36, False))
+
+print(p)
+
+print(len(p))
+
+print(type(p))
+
+print(p[2])
+
+print(p[1:4])
+
+#a1
+if 2.2 in p:
+    print("2.2 is in this list")
+
+#a2
+p[0 : 2] = [55, "polp"]
+print(p)
+
+
+u = [77, 85, 5.3, True, "Joseph", "Blanco", False]
+
+u.insert(6, "Flores")
+
+print(u)
+
+
+
+o = [25, True, False, "Hola Joseph", 1.2, 3, 3]
+
+print(len(o))
+
+#print(type(o))
+
+print(o[0 : 2])
+
+p = list(("Apple", 25, True, 2.2, 'joseph', "Hola", 85, 2.36, False))
+
+print(p)
+
+print(len(p))
+
+print(type(p))
+
+print(p[2])
+
+print(p[1:4])
+
+#a1
+if 2.2 in p:
+    print("2.2 is in this list")
+
+#a2
+p[0 : 2] = [55, "polp"]
+print(p)
+
+
+u = [77, 85, 5.3, True, "Joseph", "Blanco", False]
+
+u.insert(6, "Flores")
+
+print(u)
+
+
+
+#list of methods: len(name_of_list), type(name_of_list), list((elements....)), name_of_list [position], name_of_list [0 : 2], insert(index, element),
+
+#para comprobar si un elemento esta en la lista = ejemplo a1,
+#para cambiar el orden de lista: ejemplo a2
