@@ -175,3 +175,5 @@ print(u)
 
 #para comprobar si un elemento esta en la lista = ejemplo a1,
 #para cambiar el orden de lista: ejemplo a2
+
+##- continue with list in Python -##
